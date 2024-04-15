@@ -98,6 +98,7 @@
   width: 480px;
   height: 360px;
   margin-left: -400px;
+  pointer-events: none;
 }
 
 .center::after {
@@ -105,6 +106,7 @@
   width: 240px;
   height: 180px;
   z-index: -1;
+  pointer-events: none;
 }
 
 .center::before,

@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@binance/w3w-wagmi-connector-v2':
-    specifier: ^1.1.4
-    version: 1.1.4(viem@2.9.16)(wagmi@2.5.19)
+    specifier: ^1.1.5
+    version: 1.1.5(viem@2.9.16)(wagmi@2.5.19)
   '@tanstack/react-query':
     specifier: ^5.29.0
     version: 5.29.0(react@18.2.0)
@@ -1611,8 +1611,8 @@ packages:
       js-base64: 3.7.7
     dev: false
 
-  /@binance/w3w-wagmi-connector-v2@1.1.4(viem@2.9.16)(wagmi@2.5.19):
-    resolution: {integrity: sha512-It9cpj3+uqSAdt7xz7RczqDk+d8EbRWOwXjqIpB3pzyn0GcmFVw7XRLAc4rdXLnvbUvVsSWksH57btIIwhFzEg==}
+  /@binance/w3w-wagmi-connector-v2@1.1.5(viem@2.9.16)(wagmi@2.5.19):
+    resolution: {integrity: sha512-kIK5izRMCfTvZVWufmx2T5St0wRam0uORq6II8Le73tGuvcbv0ht88dmGdqsSn4hN2OuTpQ/R7EKp7407fE+EA==}
     peerDependencies:
       viem: 2.x
       wagmi: 2.x
@@ -8274,7 +8274,7 @@ packages:
     dependencies:
       object-assign: 4.1.1
       react: 18.2.0
-      react-is: 16.13.1
+      react-is: 18.2.0
     dev: false
 
   /react@18.2.0:

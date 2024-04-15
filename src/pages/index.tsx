@@ -20,13 +20,18 @@ const config = createConfig({
 const inter = Inter({ subsets: ["latin"] });
 
 function App() {
-  const { connectors, connect } = useConnect();
+  const { connectors, connectAsync } = useConnect();
 
-  console.log(connectors);
   const connectBtns = connectors.map((connector) => (
     <button
       key={connector.id}
-      onClick={() => connect({ connector })}
+      onClick={async () => {
+        try {
+          await connectAsync({ connector });
+        } catch (e) {
+          console.error(e);
+        }
+      }}
       className={styles["line-item"]}
     >
       Connect via {connector.name}
