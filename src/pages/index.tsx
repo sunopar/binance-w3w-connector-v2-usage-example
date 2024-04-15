@@ -42,9 +42,7 @@ function App() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.center}>
-          <div className={styles.lines}>{connectBtns}</div>
-        </div>
+        <div className={styles.lines}>{connectBtns}</div>
       </main>
     </>
   );
