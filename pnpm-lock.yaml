@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@binance/w3w-wagmi-connector-v2':
-    specifier: ^1.1.4
-    version: 1.1.4(viem@2.9.16)(wagmi@2.5.19)
+    specifier: ^1.1.5-alpha.0
+    version: 1.1.5(viem@2.9.16)(wagmi@2.5.19)
   '@tanstack/react-query':
     specifier: ^5.29.0
     version: 5.29.0(react@18.2.0)
@@ -1611,8 +1611,8 @@ packages:
       js-base64: 3.7.7
     dev: false
 
-  /@binance/w3w-wagmi-connector-v2@1.1.4(viem@2.9.16)(wagmi@2.5.19):
-    resolution: {integrity: sha512-It9cpj3+uqSAdt7xz7RczqDk+d8EbRWOwXjqIpB3pzyn0GcmFVw7XRLAc4rdXLnvbUvVsSWksH57btIIwhFzEg==}
+  /@binance/w3w-wagmi-connector-v2@1.1.5(viem@2.9.16)(wagmi@2.5.19):
+    resolution: {integrity: sha512-kIK5izRMCfTvZVWufmx2T5St0wRam0uORq6II8Le73tGuvcbv0ht88dmGdqsSn4hN2OuTpQ/R7EKp7407fE+EA==}
     peerDependencies:
       viem: 2.x
       wagmi: 2.x
@@ -2648,6 +2648,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     dev: false
     bundledDependencies:
       - napi-wasm
@@ -7394,6 +7395,10 @@ packages:
     hasBin: true
     dev: false
 
+  /napi-wasm@1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
+    dev: false
+
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
@@ -8274,7 +8279,7 @@ packages:
     dependencies:
       object-assign: 4.1.1
       react: 18.2.0
-      react-is: 16.13.1
+      react-is: 18.2.0
     dev: false
 
   /react@18.2.0:
